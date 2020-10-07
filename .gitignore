@@ -1,0 +1,7 @@
+node_modules
+.idea
+credentials.json
+
+# Don't commit any quest data kicking around for importing
+input
+**.txt

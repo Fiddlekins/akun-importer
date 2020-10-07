@@ -1,0 +1,22 @@
+{
+  "name": "akun-importer",
+  "version": "1.0.0",
+  "description": "Import a quest into Akun",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --experimental-modules index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Fiddlekins/akun-importer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "akun-api": "git+https://github.com/Fiddlekins/akun-api.git#4.0.3",
+    "fs-extra": "^8.1.0",
+    "sanitize-html": "^1.20.1"
+  }
+}
